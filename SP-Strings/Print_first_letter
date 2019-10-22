@@ -1,0 +1,11 @@
+#print first letter of every word in the string.
+
+t=int(input())
+while t:
+    a=input()
+    n=a.split(" ")
+    b=""
+    for i in n:
+       b+=str(i[:1])
+    print(b)
+    t-=1
